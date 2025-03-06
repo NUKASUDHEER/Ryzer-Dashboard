@@ -3,7 +3,7 @@ import { useOutletContext } from "react-router-dom";
 import styles from '../components/styles/ProductList.module.css'
 import Product from '../components/layout/Product'
 import ProductCard from '../components/layout/Productcard'
-import { filterProducts,filterProductsBySeachQuery} from '../utils/filter';
+import { filterProducts,filterProductsBySeachQuery} from '../utils/Filter';
 import ProductDetails from '../data/ProductDetails'
 
 const ProductsList = ({ searchQuery }) => {
