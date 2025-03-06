@@ -1,0 +1,94 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.sort-container{
+    position: relative;
+    font-size: 12px;
+    display: inline-block;
+    align-self: flex-end;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.display-products{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+}
+
+.sort-box{
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: 250px;
+    justify-content: space-between;
+}
+
+.sort-text {
+    color: #444444;
+}
+
+.sort-selected {
+    font-weight: bold;
+}
+
+.sort-icon {
+    color: #444444;
+}
+
+.sort-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    padding: 5px 0;
+    margin: 5px 0 0 0;
+    z-index: 10;
+}
+
+.sort-dropdown li {
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.sort-dropdown li:hover {
+    background: #ddd;
+}
+
+.modal{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-20%, -50%);
+}
+
+.closeButton {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 5px;
+    background: transparent;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    color:black;
+    background-color: #ffcdcd;
+}
+
+.closeButton:hover {
+    color: red;
+}
