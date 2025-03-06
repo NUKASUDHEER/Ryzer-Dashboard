@@ -14,3 +14,5 @@ npm run dev
 
 step5: Access the project in your browser <br/>
 Local:   http://localhost:5173/
+<br/>
+Note: On clicking a product card in the dashboard, a modal should open displaying detailed product information.
